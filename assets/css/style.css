@@ -31,9 +31,12 @@ li{
 }
 
 .social-media{
-    margin-bottom:10px;
     padding:0;
     text-align: center;
+}
+.jumbotron img{
+    width:200px;
+    float:left;
 }
 
 
