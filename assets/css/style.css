@@ -1,0 +1,44 @@
+
+li{
+    margin-left:20px;
+    font-size: 20px;  
+}
+
+.navbar-brand {
+    margin-left:20px;
+    font-size: 30px;   
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(255, 209, 110);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active{
+    color: rgb(255, 209, 110);
+}
+
+.main-body{
+    margin: 20px;
+    padding: 20px;
+}
+
+.port-body{
+    margin: 20px;
+    padding: 20px;
+}
+
+.social-media{
+    margin-bottom:10px;
+    padding:0;
+    text-align: center;
+}
+
+
+
+
+
+
+
