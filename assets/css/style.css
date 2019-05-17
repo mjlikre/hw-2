@@ -2,12 +2,13 @@ body{
     overflow-x: hidden;
     background-color: white;
 }
-
+/* basic styling for the navbar */
 li{
     margin-left:20px;
     font-size: 20px;  
 }
 
+ 
 .navbar-brand {
     margin-left:20px;
     font-size: 30px; 
@@ -31,6 +32,10 @@ li{
     color: rgb(255, 209, 110);
 }
 
+/* end of navbar styling */
+
+/* styling the lading/home page, image style and caption style */
+
 .home-inner img{
     width:100%;
     max-width:100%;
@@ -47,27 +52,39 @@ li{
     color:white;
     text-transform: uppercase;
 
-
-
 }
+
+.caption h1{
+    font-size: 60px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 10px black;
+}
+/* end of landing page styling */
+
+/* styling the general main body and the about page */
 
 .main-body{
     margin: 20px;
     padding: 20px;
-    background-color: rgb(252, 221, 226);
+    /* background-color: rgb(252, 221, 226); */
 }
-#about {
+/* #about {
     margin-left: 20px;
     margin-right:20px;
     padding:20px;
     
-}
+} */
 
+/* end of about page styling */
+
+/* styling of hobbies page with the id of portfolio */
 #portfolio{
-    margin: 20px;
-    padding: 20px;
+    padding:20px;
+
     background-color: rgb(177, 222, 252);
 }
+
 
 .sp1{
     color: rgb(186, 65, 190)
@@ -81,6 +98,9 @@ li{
     float:left;
 }
 
+/* end of hobbies page styling */
+
+/* styling for the footer/social media link page */
 .social-media a{
     padding: 20px;
 }
@@ -89,6 +109,7 @@ li{
     padding:20px;
 }
 
+/* end of styling */
 
 
 
