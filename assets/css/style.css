@@ -36,11 +36,11 @@ li{
 
 /* styling the lading/home page, image style and caption style */
 
-.home-inner img{
-    width:100%;
-    max-width:100%;
-    z-index: -1;
-    opacity: 0.8;
+
+#home-inner img{
+    z-index:-1;
+    width:100%
+   
 }
 
 .caption{
@@ -110,6 +110,27 @@ li{
 }
 
 /* end of styling */
+
+@media screen and (max-width: 767px){
+.caption{
+    width:100%;
+    max-width:100%;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    color:white;
+    text-transform: uppercase;
+
+}
+
+.caption h1{
+    font-size: 40px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 10px black;
+}
+
+}
 
 
 
