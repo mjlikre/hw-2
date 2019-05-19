@@ -11,31 +11,34 @@
 
 </head>
 <body data-spy="scroll" data-target="#navbarNav">
+    <!-- Nav bar section, no external linking files, all within the same file, with navbar fixed on the top -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="index.html">Michael Jiang</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#landing">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Hobbies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacts">Contact</a>
-                    </li>
-                
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Michael Jiang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#landing">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contact</a>
+                </li>
+            
+            </ul>
+        </div>
+    </nav>
+    <!-- end of nav bar -->
 
+<!-- "landing" page, where the image is and where the welcome text is. Welcome text shifts when screen resized, needs to fixed that -->
     <section id = "landing">
         <div class = 'home-wrap'>
             <div class = "home-inner">
@@ -47,8 +50,10 @@
     <div class = 'caption text-center'>
             <h1>Welcome to Michael's Website</h1>
         </div>
-
+<!-- end of landing page -->
     <section class = "main-body">
+
+         <!-- start of about section -->
        
         <div id = "about" class = 'container'>
         
@@ -64,7 +69,9 @@
             <p>I hope to get the most out of this bootcamp and use the portfolio that I build to find an internship next summer. Wish me luck! </p>
         </div>
 
-<!-- start of portfolio section -->
+        <!-- end of about section -->
+
+<!-- start of portfolio/habbies section -->
 
         <div id= "portfolio" class='container pads'>
             <h1 class='text-center sp1'>My Hobbies</h1>
@@ -85,6 +92,7 @@
                         <hr>
                     </div>
                 </div>
+
             </div>
             <div class = "row">
                 <div class="col-md-6">
@@ -145,66 +153,69 @@
                 </div>
             </div>
         </div>
-
+<!-- end of portfolio/hobbies section -->
+<!-- start of contacts section -->
         <div id = "contacts" class="pads caontainer">
-            <div class="jumbotron pads">
-                <h1 class="text-center sp1">You can check me out on ...</h1>
-                <div class="narrow">
-                    <div class = "row text-center">
-        
-                        <div class="col-md-4">
-                            <div class='feature'>
-                                <a href="https://www.instagram.com/xinsenj/"><i class="fab fa-instagram fa-6x"></i></a>
-                                <h5>Instagram</h5>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in </p>
+            <div class ='row'>
+                <div class ='col-lg-12'>
+                    <div class="jumbotron pads">
+                        <h1 class="text-center sp1">You can check me out on ...</h1>
+                        <div class="narrow">
+                            <div class = "row text-center">
+                
+                                <div class="col-md-4">
+                                    <div class='feature'>
+                                        <a href="https://www.instagram.com/xinsenj/"><i class="fab fa-instagram fa-6x"></i></a>
+                                        <h5>Instagram</h5>
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class='feature'>
+                                        <a href="https://www.facebook.com/michael.jiang.75457"><i class="fab fa-facebook-square fa-6x"></i></a>
+                                        <h5>Facebook</h5>
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class='feature'>
+                                        <a href="https://www.linkedin.com/feed/?trk=eml-wym-cta"><i class="fab fa-linkedin fa-6x"></i></a>  
+                                        <h5>Linked-in</h5>
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class='feature'>
-                                <a href="https://www.facebook.com/michael.jiang.75457"><i class="fab fa-facebook-square fa-6x"></i></a>
-                                <h5>Facebook</h5>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in </p>
+                        <form>
+                            <hr>
+                            <h1 class="text-center sp2">Or shoot me a mail here!</h1>
+                            <div class="form-group">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">                        
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class='feature'>
-                                <a href="https://www.linkedin.com/feed/?trk=eml-wym-cta"><i class="fab fa-linkedin fa-6x"></i></a>  
-                                <h5>Linked-in</h5>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in </p>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                             </div>
-                        </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <a class="btn btn-outline-dark btn-lg" href="#">Shoot</a>
+                            
                     </div>
                 </div>
-                <form>
-                    <hr>
-                    <h1 class="text-center sp2">Or shoot me a mail here!</h1>
-                    <div class="form-group">
-                            <label for="exampleFormControlInput1">Name</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">                        
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                </form>
-                <a class="btn btn-outline-dark btn-lg" href="#">Shoot</a>
-                    
             </div>
         </div>
-         
-           
-       
+        <!-- end of contacts -->
     </section>
     <section class = "social-media text-center">
-            <a href="https://www.instagram.com/xinsenj/"><i class="fab fa-instagram fa-3x"></i></a>
-            <a href="https://www.facebook.com/michael.jiang.75457"><i class="fab fa-facebook-square fa-3x"></i></a>
-            <a href="https://www.linkedin.com/feed/?trk=eml-wym-cta"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://www.instagram.com/xinsenj/"><i class="fab fa-instagram fa-3x"></i></a>
+        <a href="https://www.facebook.com/michael.jiang.75457"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.linkedin.com/feed/?trk=eml-wym-cta"><i class="fab fa-linkedin fa-3x"></i></a>
     </section>   
   
    
